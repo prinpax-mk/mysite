@@ -35,9 +35,7 @@ body {
   margin-top: -90px;
 }
 
-.boutton {
-  padding: 7px;
-}
+
 
 #btn_connexion {
   margin-bottom: 10px;
@@ -45,11 +43,17 @@ body {
   color: white;
   border: 2px solid #046380;
   border-radius: 5px;
+  padding: 5px;
 }
 
 #btn_inscription {
+  margin-bottom: 10px;
+  background-color: #046380;
+  color: white;
   border: 2px solid #046380;
   border-radius: 5px;
+  padding: 5px;
+ 
 }
 
 #btn_connexion:hover {
@@ -167,7 +171,14 @@ h2 {
             flex-direction: column;
   }
   #bouttons {
-    margin-top: -150px;
+    margin-top: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
   }
+  #btn_inscription{
+    margin-left: 5px;
+  }
+  
 }
 /*# sourceMappingURL=style.css.map */
